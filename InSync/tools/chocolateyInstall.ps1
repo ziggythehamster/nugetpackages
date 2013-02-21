@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'InSync' 'exe' '/S' 'http://s.insynchq.com/builds/Insync-0.10.11.20238.exe'

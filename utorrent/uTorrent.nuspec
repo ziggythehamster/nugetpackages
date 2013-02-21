@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>uTorrent</id>
+    <title>µTorrent</title>
+    <version>3.3</version>
+    <authors>BitTorrent, Inc.</authors>
+    <owners>BitTorrent, Inc.</owners>
+    <summary>Elegant, efficient torrent downloading.</summary>
+    <description>A (very) tiny torrent client.
+| Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
+    <projectUrl>http://www.utorrent.com</projectUrl>
+    <tags>torrent, uTorrent, µTorrent, download</tags>
+    <licenseUrl>http://www.bittorrent.com/legal/eula</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+  </metadata>
+</package>

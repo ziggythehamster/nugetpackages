@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>InSync</id>
+    <title>InSync</title>
+    <version>0.10.11.20238</version>
+    <authors>InSync</authors>
+    <owners>InSync</owners>
+    <summary>Advanced Google Drive synchronization</summary>
+    <description>A customizable Google Drive sync service just like the Dropbox Desktop client. The best part is, you can sync multiple Google Drives!
+| Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
+    <projectUrl>https://www.insynchq.com/</projectUrl>
+    <tags>google, drive, sync</tags>
+    <licenseUrl>https://www.insynchq.com/terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+  </metadata>
+</package>

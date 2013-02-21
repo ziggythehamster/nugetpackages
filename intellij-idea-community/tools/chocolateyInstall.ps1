@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'intellij-idea-community' 'exe' '/S' 'http://download-ln.jetbrains.com/idea/ideaIC-12.0.4.exe'

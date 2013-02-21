@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>skitch</id>
+    <title>Skitch</title>
+    <version>1.0.2.0</version>
+    <authors>Evernote</authors>
+    <owners>Evernote</owners>
+    <summary>Create clear screenshots, annotate them before you share on Evernote or save to disk.</summary>
+    <description>Get your point across with fewer words using annotation, shapes and sketches, so that your ideas become reality faster. 
+| Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
+    <projectUrl>http://evernote.com/skitch</projectUrl>
+    <tags>PHP IDE JetBrains</tags>
+    <licenseUrl>http://evernote.com/legal/tos.php</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+  </metadata>
+</package>
