@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'uTorrent' 'exe' '/S' 'http://ll.download3.utorrent.com/3.3/uTorrent.exe'
+Install-ChocolateyPackage 'uTorrent' 'exe' '/S' 'http://download-new.utorrent.com/endpoint/utorrent/os/win/track/stable/'

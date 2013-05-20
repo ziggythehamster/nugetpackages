@@ -3,12 +3,11 @@
   <metadata>
     <id>uTorrent</id>
     <title>µTorrent</title>
-    <version>3.3</version>
+    <version>3.3.1</version>
     <authors>BitTorrent, Inc.</authors>
     <owners>BitTorrent, Inc.</owners>
     <summary>Elegant, efficient torrent downloading.</summary>
-    <description>A (very) tiny torrent client.
-| Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
+    <description>A (very) tiny torrent client.</description>
     <projectUrl>http://www.utorrent.com</projectUrl>
     <tags>torrent, uTorrent, µTorrent, download</tags>
     <licenseUrl>http://www.bittorrent.com/legal/eula</licenseUrl>
