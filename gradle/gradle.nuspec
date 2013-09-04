@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>gradle</id>
+    <title>Gradle Build System</title>
+    <version>1.6.1</version>
+    <authors>Gradle.org</authors>
+    <owners>Mark Tolmacs</owners>
+    <summary>Gradle is build automation evolved. Gradle can automate the building, testing, publishing, deployment and more of software packages or other types of projects such as generated static websites, generated documentation or indeed anything else.</summary>
+    <description>Gradle combines the power and flexibility of Ant with the dependency management and conventions of Maven into a more effective way to build. Powered by a Groovy DSL and packed with innovation, Gradle provides a declarative way to describe all kinds of builds through sensible defaults. Gradle is quickly becoming the build system of choice for many open source projects, leading edge enterprises and legacy automation challenges.
+
+Learn more about what makes Gradle a compelling choice for build automation or get started with Gradle right now.</description>
+    <projectUrl>http://www.gradle.org/</projectUrl>
+    <tags>Java Build Dependency Management</tags>
+    <licenseUrl>http://www.gradle.org/license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+  </metadata>
+</package>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>mvn</id>
+    <version>3.0.5</version>
+    <title>Maven</title>
+    <authors>The Apache Maven team</authors>
+    <owners>Mark Tolmacs</owners>
+    <licenseUrl>http://maven.apache.org/license.html</licenseUrl>
+    <projectUrl>http://maven.apache.org/</projectUrl>
+    <iconUrl>http://upload.wikimedia.org/wikipedia/commons/f/f5/Maven_logo.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Maven is a build automation tool typically used for Java projects</description>
+    <summary>Apache Maven is a software project management and comprehension tool. Based on the concept of a project object 
+	model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information</summary>
+    <releaseNotes />
+    <copyright>� 2002-2012 The Apache Software Foundation</copyright>
+    <tags>maven java development</tags>
+    <dependencies>
+      <dependency id="binroot" />
+    </dependencies>
+  </metadata>
+</package>
