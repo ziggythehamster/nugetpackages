@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'intellij-idea-ultimate' 'exe' '/S' 'http://download.jetbrains.com/idea/ideaIU-12.1.6.exe'
