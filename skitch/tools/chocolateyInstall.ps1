@@ -1,1 +1,0 @@
-Install-ChocolateyPackage 'skitch' 'exe' '/S' 'http://cdn1.evernote.com/Skitch/win32/skitchsetup-1.0.2.0.exe'
