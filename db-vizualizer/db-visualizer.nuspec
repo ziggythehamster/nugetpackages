@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>db-visualizer</id>
+    <title>DbVisualizer</title>
+    <version>9.1.1</version>
+    <authors>DbVis Software</authors>
+    <owners>DbVis Software</owners>
+    <summary>DbVisualizer is the universal database tool for developers,  DBAs and analyst.</summary>
+    <description>DbVisualizer is the universal database tool for developers,  DBAs and analysts. It is the perfect solution since the same tool can be used on all major operating systems accessing a wide range of databases.
+| Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
+    <projectUrl>http://www.dbvis.com/</projectUrl>
+    <tags>Java DB DbVis DBVisualizer</tags>
+    <licenseUrl>http://www.dbvis.com/eula/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+  </metadata>
+</package>

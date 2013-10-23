@@ -1,0 +1,1 @@
+Install-ChocolateyPackage 'db-visualizer' 'exe' '-q' 'http://www.dbvis.com/product_download/dbvis-9.1.1/media/dbvis_windows_9_1_1.exe' 'http://www.dbvis.com/product_download/dbvis-9.1.1/media/dbvis_windows-x64_9_1_1.exe'
