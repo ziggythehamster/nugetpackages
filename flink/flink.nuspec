@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>flink</id>
+    <title>Apache Flink</title>
+    <version>1.6.3</version>
+    <authors>Apache Software Foundation</authors>
+    <owners>Apache Software Foundation</owners>
+    <summary>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams.</summary>
+    <description>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale</description>
+    <projectUrl>https://flink.apache.org/</projectUrl>
+    <tags>Java Hadoop Apache Flink</tags>
+    <licenseUrl>https://github.com/apache/flink/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+    <dependencies>
+      <dependency id="jre8" version="8.0.201" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
