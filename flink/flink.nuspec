@@ -8,9 +8,19 @@
     <owners>Apache Software Foundation</owners>
     <summary>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams.</summary>
     <description>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale</description>
+
+    <!-- URLs. Using GitHub's CDN for icons as RawGit is EOL and redirected to GitHub anyways -->
+    <bugTrackerUrl>https://issues.apache.org/jira/browse/FLINK</bugTrackerUrl>
+    <docsUrl>https://ci.apache.org/projects/flink/flink-docs-release-1.6/</docsUrl>
+    <iconUrl>https://raw.githubusercontent.com/ziggythehamster/nugetpackages/a607afafed384e6d3640a1c782facd999143f7ab/icons/flink.png</iconUrl>
+    <licenseUrl>https://gitbox.apache.org/repos/asf?p=flink.git;a=blob_plain;f=LICENSE;hb=master</licenseUrl>
+    <mailingListUrl>https://flink.apache.org/community.html#mailing-lists</mailingListUrl>
+    <packageSourceUrl>https://github.com/ziggythehamster/nugetpackages/tree/master/flink</packageSourceUrl>
+    <projectSourceUrl>https://gitbox.apache.org/repos/asf/flink.git</projectSourceUrl>
     <projectUrl>https://flink.apache.org/</projectUrl>
+    <releaseNotes>https://ci.apache.org/projects/flink/flink-docs-release-1.6/release-notes/flink-1.6.html</releaseNotes>
+
     <tags>Java Hadoop Apache Flink</tags>
-    <licenseUrl>https://github.com/apache/flink/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
 
     <dependencies>
