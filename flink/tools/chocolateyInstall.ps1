@@ -1,9 +1,8 @@
 $ErrorActionPreference = 'Stop'
 
-$scalaVersion = '2.11'
 $version      = '1.6.3'
 $name         = "$env:ChocolateyPackageName-$version"
-$url          = "http://archive.apache.org/dist/$env:ChocolateyPackageName/$name/$name-bin-scala_$scalaVersion.tgz"
+$url          = "http://archive.apache.org/dist/flink/flink-1.6.3/flink-1.6.3-bin-scala_2.11.tgz"
 
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageDir   = "$(Split-Path -parent $toolsDir)"
