@@ -3,11 +3,12 @@
   <metadata>
     <id>db-visualizer</id>
     <title>DbVisualizer</title>
-    <version>10.0.16</version>
+    <version>10.0.17</version>
     <authors>DbVis Software</authors>
-    <owners>DbVis Software</owners>
+    <owners>Keith Gable (ZiggyTheHamster), Joe Athman (jjathman)</owners>
     <summary>DbVisualizer is the universal database tool for developers, DBAs and analysts.</summary>
     <description>DbVisualizer is the universal database tool for developers, DBAs and analysts. It is the perfect solution since the same tool can be used on all major operating systems accessing a wide range of databases.</description>
+    <packageSourceUrl>https://github.com/ziggythehamster/nugetpackages/tree/master/db-visualizer</packageSourceUrl>
     <projectUrl>http://www.dbvis.com/</projectUrl>
     <tags>Java DB DbVis DBVisualizer</tags>
     <licenseUrl>http://www.dbvis.com/eula/</licenseUrl>
