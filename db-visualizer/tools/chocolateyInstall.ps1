@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.dbvis.com/product_download/dbvis-10.0.17/media/dbvis_windows_10_0_17.exe'
-$url64      = 'https://www.dbvis.com/product_download/dbvis-10.0.17/media/dbvis_windows-x64_10_0_17.exe'
+$url        = 'https://www.dbvis.com/product_download/dbvis-10.0.25/media/dbvis_windows-x32_10_0_25.exe'
+$url64      = 'https://www.dbvis.com/product_download/dbvis-10.0.25/media/dbvis_windows-x64_10_0_25.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -12,9 +12,9 @@ $packageArgs = @{
 
   softwareName  = 'DbVisualizer*'
 
-  checksum      = 'D213692DA3D7D17C8469A4C7CD0F6B4FA0C5A3AF01081C89D1A115ECAF202B8B'
+  checksum      = 'FCB806D385AE1E89533EC0848996DF436CA4D691BB22BAC46FDDB9BBA8D6EFC8'
   checksumType  = 'sha256'
-  checksum64    = 'C2FA038DBD8B376D51565843EFC60BBDCE20378E72AB3E65F20E5A06FA60425C'
+  checksum64    = 'A7F50B0C8958D0765CEF88B59147842B42C4A42EEEC76D3CF114DA07309C04CD'
   checksumType64= 'sha256'
 
   silentArgs    = "-q"
