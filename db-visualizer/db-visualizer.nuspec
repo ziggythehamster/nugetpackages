@@ -3,7 +3,7 @@
   <metadata>
     <id>db-visualizer</id>
     <title>DbVisualizer</title>
-    <version>10.0.17</version>
+    <version>10.0.25</version>
     <authors>DbVis Software</authors>
     <owners>Keith Gable (ZiggyTheHamster), Joe Athman (jjathman)</owners>
     <summary>DbVisualizer is the universal database tool for developers, DBAs and analysts.</summary>
