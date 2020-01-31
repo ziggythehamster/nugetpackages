@@ -24,7 +24,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
 
     <dependencies>
-      <dependency id="openjdk" version="13.0.0" />
+      <dependency id="openjdk8" version="8.232.9" />
     </dependencies>
   </metadata>
 
