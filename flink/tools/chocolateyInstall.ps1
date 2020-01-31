@@ -1,8 +1,8 @@
 $ErrorActionPreference = 'Stop'
 
-$version      = '1.6.3'
+$version      = '1.6.4'
 $name         = "$env:ChocolateyPackageName-$version"
-$url          = "http://archive.apache.org/dist/flink/flink-1.6.3/flink-1.6.3-bin-scala_2.11.tgz"
+$url          = "https://archive.apache.org/dist/flink/flink-1.6.4/flink-1.6.4-bin-scala_2.11.tgz"
 
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageDir   = "$(Split-Path -parent $toolsDir)"
@@ -13,7 +13,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   url           = $url
 
-  checksum      = '6C75BEA476E80247EE2ED0A99074AFA322A39737CB05E60F88EB8BB8EE24BF4F'
+  checksum      = '975E5334278C6F191F8464F8A42D0363817A4B7A56ABBFCA118218D12898BD8A'
   checksumType  = 'sha256'
 }
 
@@ -21,7 +21,7 @@ $packageArgs = @{
 Install-ChocolateyZipPackage @packageArgs
 
 # Untar (tar has root directory flink-x.y.z so ends up being package/flink-x.y.z when extracted to $packageDir)
-$tarFile = Get-ChildItem -File -Path $toolsDir -Filter *.tar
+$tarFile = Get-ChildItem -File -Path $toolsDir -Filter flink-$version-bin-scala_2.11.tar
 Get-ChocolateyUnzip -fileFullPath "$(Join-Path $toolsDir $tarFile)" -destination $packageDir
 
 # Make environment usable

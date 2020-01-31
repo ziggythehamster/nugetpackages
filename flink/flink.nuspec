@@ -3,7 +3,7 @@
   <metadata>
     <id>flink</id>
     <title>Apache Flink</title>
-    <version>1.6.3</version>
+    <version>1.6.4</version>
     <authors>Apache Software Foundation</authors>
     <owners>Keith Gable (ZiggyTheHamster)</owners>
     <summary>Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams.</summary>
@@ -24,7 +24,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
 
     <dependencies>
-      <dependency id="jre8" version="8.0.201" />
+      <dependency id="openjdk" version="13.0.0" />
     </dependencies>
   </metadata>
 
